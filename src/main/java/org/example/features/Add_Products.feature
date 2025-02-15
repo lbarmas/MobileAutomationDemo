@@ -7,7 +7,7 @@ Feature: Login and Add Products to Cart
     And the user clicks the login button
     And the app navigates to the home screen
     And the user adds products to the cart
-    Then the product is added to the cart successfully
+    Then the products are added to the cart successfully
     Examples:
       | username      | password     |
       | standard_user | secret_sauce |
