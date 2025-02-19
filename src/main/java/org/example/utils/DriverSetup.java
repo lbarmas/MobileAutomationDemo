@@ -16,7 +16,7 @@ public class DriverSetup {
             try {
                 ConfigLoader configLoader = new ConfigLoader();
                 DesiredCapabilities capabilities = getCapabilities(configLoader);
-                driver = new AndroidDriver(new URL(configLoader.get("serverUrl")), capabilities);  // Use AndroidDriver
+                driver = new AndroidDriver(new URL(configLoader.get("serverUrl")), capabilities);
             } catch (Exception e) {
                 throw new RuntimeException("Error during driver setup: " + e.getMessage(), e);
             }
