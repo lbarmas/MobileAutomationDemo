@@ -1,6 +1,8 @@
-package org.example.utils;
+package org.example.drivers;
 
+import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
+import org.example.utils.ConfigLoader;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
@@ -8,7 +10,7 @@ import org.testng.annotations.BeforeTest;
 import java.net.URL;
 
 public class DriverSetup {
-    protected AndroidDriver driver;
+    protected AndroidDriver<MobileElement> driver;
 
     @BeforeTest
     public void setup() {
@@ -16,7 +18,7 @@ public class DriverSetup {
             try {
                 ConfigLoader configLoader = new ConfigLoader();
                 DesiredCapabilities capabilities = getCapabilities(configLoader);
-                driver = new AndroidDriver(new URL(configLoader.get("serverUrl")), capabilities);
+                driver = new AndroidDriver<>(new URL(configLoader.get("serverUrl")), capabilities);
             } catch (Exception e) {
                 throw new RuntimeException("Error during driver setup: " + e.getMessage(), e);
             }
