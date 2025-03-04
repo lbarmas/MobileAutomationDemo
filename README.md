@@ -31,4 +31,4 @@ Before running the tests, ensure you have the following installed on your machin
 
    If you haven't cloned the repository yet, you can do so with the following command:
 
-   git clone https://github.com/lbarmas/SwagLabsAutomationDemo.git
+   git clone https://github.com/lbarmas/
