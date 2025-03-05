@@ -4,16 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29747345-f086-404c-9495-08fd666e5161" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/runners/TestRunner.java" afterDir="false" />
+    <list default="true" id="29747345-f086-404c-9495-08fd666e5161" name="Changes" comment="Change Appium version from 8 to 7, Selenium version from 4 to 3, and add org.slf4j dependency">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,13 +40,115 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;/Users/lisetarmas/Documents/AutomationSwagLab/src/test/java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.59770113&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main" />
+      <recent name="$PROJECT_DIR$/src/test" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn install" />
+      <command value="mvn clean install" />
+    </option>
+  </component>
+  <component name="RunManager" selected="TestNG.TestRunner">
+    <configuration name="Feature: Login_And_AddProducts" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/java/org/example/features/Login_And_AddProducts.feature" />
+      <option name="GLUE" value="stepdefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="AutomationSwagLab" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: Login_And_AddProducts" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Login with valid credentials and Add Multiple Products (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/Login_And_AddProducts.feature" />
+      <option name="GLUE" value="stepdefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="AutomationSwagLab" />
+      <option name="NAME_FILTER" value="^Login with valid credentials and Add Multiple Products$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Login with valid credentials and Add Multiple Products$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Login with valid credentials and Add Multiple Products" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Login with valid credentials and Add Multiple Products" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/java/org/example/features/Login_And_AddProducts.feature" />
+      <option name="GLUE" value="stepdefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="AutomationSwagLab" />
+      <option name="NAME_FILTER" value="^Login with valid credentials and Add Multiple Products$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Login with valid credentials and Add Multiple Products$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Login with valid credentials and Add Multiple Products" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRunner" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationSwagLab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="runners" />
+      <option name="MAIN_CLASS_NAME" value="runners.TestRunner" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.TestRunner" />
+        <item itemvalue="Cucumber Java.Scenario: Login with valid credentials and Add Multiple Products (1)" />
+        <item itemvalue="Cucumber Java.Scenario: Login with valid credentials and Add Multiple Products" />
+        <item itemvalue="Cucumber Java.Feature: Login_And_AddProducts" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -64,6 +158,125 @@
       <option name="presentableId" value="Default" />
       <updated>1739642919330</updated>
     </task>
+    <task id="LOCAL-00001" summary="- Set up the project structure, including features, pages, utils, runners, and stepdefinitions folders.&#10;- Implement TestRunner class for running tests with Cucumber and TestNG.&#10;- Added necessary dependencies in the pom.xml for Cucumber, TestNG, Appium, Selenium, and Allure.">
+      <created>1739643812119</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1739643812119</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add config.properties and ConfigLoader class for environment setup">
+      <created>1739644098799</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1739644098799</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add feature file for login and add multiple products to cart">
+      <created>1739644680526</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1739644680527</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Fix typo in steps, add LoginAndAddProductsSteps.java, and create LoginAndAddProductsPage.java">
+      <created>1739645265844</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1739645265844</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Update dependencies version and refactor DriverSetup class by replacing AppiumDriver with AndroidDriver">
+      <created>1739787512343</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1739787512343</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Remove comment">
+      <created>1739952868111</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1739952868111</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Rename LoginAndAddProductsPage class, add XPath locators, and implement enterUsername &amp; enterPassword methods">
+      <created>1739954145324</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1739954145324</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Add Cucumber step definitions in LoginAndAddProductsSteps class">
+      <created>1739954219551</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1739954219551</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Update serverUrl in config.properties to http://127.0.0.1:4723/">
+      <created>1741103361678</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1741103361678</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Update DriverSetup to use AndroidDriver&lt;MobileElement&gt;">
+      <created>1741103409985</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1741103409985</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Improve: Implement login and add products methods. Safely delete unused Main class.">
+      <created>1741103518012</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1741103518012</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Update features path and tags to match the correct ID">
+      <created>1741103621068</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1741103621068</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Change Appium version from 8 to 7, Selenium version from 4 to 3, and add org.slf4j dependency">
+      <created>1741104203766</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1741104203766</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="- Set up the project structure, including features, pages, utils, runners, and stepdefinitions folders.&#10;- Implement TestRunner class for running tests with Cucumber and TestNG.&#10;- Added necessary dependencies in the pom.xml for Cucumber, TestNG, Appium, Selenium, and Allure." />
+    <MESSAGE value="Add config.properties and ConfigLoader class for environment setup" />
+    <MESSAGE value="Add feature file for login and add multiple products to cart" />
+    <MESSAGE value="Fix typo in steps, add LoginAndAddProductsSteps.java, and create LoginAndAddProductsPage.java" />
+    <MESSAGE value="Update dependencies version and refactor DriverSetup class by replacing AppiumDriver with AndroidDriver" />
+    <MESSAGE value="Remove comment" />
+    <MESSAGE value="Rename LoginAndAddProductsPage class, add XPath locators, and implement enterUsername &amp; enterPassword methods" />
+    <MESSAGE value="Add Cucumber step definitions in LoginAndAddProductsSteps class" />
+    <MESSAGE value="Update serverUrl in config.properties to http://127.0.0.1:4723/" />
+    <MESSAGE value="Update DriverSetup to use AndroidDriver&lt;MobileElement&gt;" />
+    <MESSAGE value="Improve: Implement login and add products methods. Safely delete unused Main class." />
+    <MESSAGE value="Update features path and tags to match the correct ID" />
+    <MESSAGE value="Change Appium version from 8 to 7, Selenium version from 4 to 3, and add org.slf4j dependency" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change Appium version from 8 to 7, Selenium version from 4 to 3, and add org.slf4j dependency" />
   </component>
 </project>
