@@ -11,7 +11,7 @@ The goal of this project is to ensure that users can log in successfully to the 
 - **Java**: The primary programming language for the tests.
 - **Cucumber**: BDD framework to run Gherkin-based tests.
 - **Gherkin**: A human-readable language used to write test scenarios.
-- **JUnit**: Framework used to run the tests.
+- **TestNG**: Framework used for running and managing test cases.
 - **Selenium**: Browser automation framework used to interact with the web application.
 - **Maven**: Build tool used to manage project dependencies.
 
