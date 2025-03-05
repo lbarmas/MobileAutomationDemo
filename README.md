@@ -19,11 +19,11 @@ The goal of this project is to ensure that users can log in successfully to the 
 
 Before running the tests, ensure you have the following installed on your machine:
 
-- **Java 11** Required to run the test scripts and manage dependencies.
-- **Maven** Build tool to manage project dependencies and execute tests.
-- **IDE (IntelliJ IDEA)**  Integrated Development Environment for writing and running tests.
-- **AndroidDriver** (if testing on a physical Android device): Necessary for automating tests on physical Android devices.
-- **Git** (if you want to clone the repository) Version control system to download and manage the project code.
+- **Java 11**: Required to run the test scripts and manage dependencies.
+- **Maven**: Build tool to manage project dependencies and execute tests.
+- **IDE (IntelliJ IDEA)**:  Integrated Development Environment for writing and running tests.
+- **AndroidDriver**: (if testing on a physical Android device): Necessary for automating tests on physical Android devices.
+- **Git**: (if you want to clone the repository) Version control system to download and manage the project code.
 
 ## Installation
 
