@@ -2,7 +2,7 @@
 
 ## Project Description
 
-**AutomationSwagLabs** is an automation testing project that uses the **Behavior-Driven Development (BDD)** methodology to verify the login and add products funcionalities of the **SwagLabs** mobile application. The project is built with **Cucumber** and uses **Gherkin** to write tests in a human-readable format. The tests are implemented in **Java**.
+**AutomationSwagLabs** is an automation testing project that uses the **Behavior-Driven Development (BDD)** methodology to verify the login and add products functionalities of the **SwagLabs** mobile application. The project is built with **Cucumber** and uses **Gherkin** to write tests in a human-readable format. The tests are implemented in **Java**.
 
 The goal of this project is to ensure that users can log in successfully to the application using valid credentials and handle errors for incorrect credentials. Additionally, it verifies that users can select products from the catalog and add them to the shopping cart. The tests ensure that the selected products are correctly added to the cart, and that the cart reflects the correct number of items, allowing users to review or proceed with the checkout process.
 
