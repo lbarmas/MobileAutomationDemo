@@ -12,8 +12,9 @@ The goal of this project is to ensure that users can log in successfully to the 
 - **Cucumber**: BDD framework to run Gherkin-based tests.
 - **Gherkin**: A human-readable language used to write test scenarios.
 - **TestNG**: Framework used for running and managing test cases.
-- **Selenium**: Browser automation framework used to interact with the web application.
+- **Appium**: Mobile automation framework used to interact with Android and iOS applications.
 - **Maven**: Build tool used to manage project dependencies.
+- **Allure**: Reporting framework used to generate detailed test execution reports.
 
 ## Requirements
 
@@ -22,7 +23,7 @@ Before running the tests, ensure you have the following installed on your machin
 - **Java 11**: Required to run the test scripts and manage dependencies.
 - **Maven**: Build tool to manage project dependencies and execute tests.
 - **IDE (IntelliJ IDEA)**:  Integrated Development Environment for writing and running tests.
-- **AndroidDriver**: (if testing on a physical Android device): Necessary for automating tests on physical Android devices.
+- **AndroidDriver**: if testing on a physical Android device is used for interactions.
 - **Git**: (if you want to clone the repository) Version control system to download and manage the project code.
 
 ## Installation
@@ -31,5 +32,5 @@ Before running the tests, ensure you have the following installed on your machin
 
    If you haven't cloned the repository yet, you can do so with the following command:
 
-   git clone [https://github.com/lbarmas/MobileAutomationDemo.git]
+   git clone git clone https://github.com/lbarmas/MobileAutomationDemo.git
    
