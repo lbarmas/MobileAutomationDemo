@@ -1,4 +1,4 @@
-@Feature_File_AddProduct @login @add_to_cart
+@Feature_File_LoginAndAddProduct @loginAndAddProduct
 Feature: Login and Add Products to Cart
 
   Scenario Outline: Login with valid credentials and Add Multiple Products

@@ -8,7 +8,7 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
                 "html:target/cucumber-reports.html",
                 "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"},
         monochrome = true,
-        tags = "@add_to_cart")
+        tags = "@loginAndAddProduct")
 
 public class TestRunner extends AbstractTestNGCucumberTests {
 
