@@ -11,3 +11,4 @@ Feature: Login and Add Products to Cart
     Examples:
       | username      | password     |
       | standard_user | secret_sauce |
+      | standard      | secret       |

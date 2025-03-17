@@ -48,10 +48,7 @@ public class LoginAndAddProductsPage {
         passwordField.sendKeys(password);
     }
 
-    public void clickLoginButton() throws Exception {
-        ConfigLoader configLoader = new ConfigLoader();
-        usernameField.sendKeys(configLoader.get("username"));
-        passwordField.sendKeys(configLoader.get("password"));
+    public void clickLoginButton(){
         loginButton.click();
     }
 
