@@ -24,7 +24,6 @@ public class ProductsPage {
         this.driver = driver;
         PageFactory.initElements(new AppiumFieldDecorator(driver), this);
     }
-
     public void selectProducts() {
         WebDriverWait wait = new WebDriverWait(driver, 10);
 
@@ -36,7 +35,6 @@ public class ProductsPage {
             clickElement(wait, productXpath);
         }
     }
-
     public boolean isProductsAddedToCart() {
         WebDriverWait wait = new WebDriverWait(driver, 10);
 
@@ -52,7 +50,6 @@ public class ProductsPage {
         }
         return false;
     }
-
     private void clickElement(WebDriverWait wait, String xpath) {
         wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(xpath)));
         MobileElement product = driver.findElement(By.xpath(xpath));
