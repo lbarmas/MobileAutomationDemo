@@ -16,6 +16,11 @@ The goal of this project is to ensure that users can log in successfully to the 
 - **Maven**: Build tool used to manage project dependencies.
 - **Allure**: Reporting framework used to generate detailed test execution reports.
 
+## Page Object Model (POM)
+This project follows the Page Object Model (POM) design pattern to improve the maintainability and scalability of the test automation code. In POM, each screen or page of the mobile application is represented by a separate Java class. These classes contain methods that interact with the elements on the respective screen and perform the required actions, such as entering text, clicking buttons, or verifying the presence of certain elements.
+
+The advantage of using POM is that it separates the test logic from the UI elements, making the code easier to maintain and reducing duplication. Each page class is responsible for a specific screen of the application, and tests can interact with these page objects instead of directly dealing with low-level interactions.
+
 ## Requirements
 
 Before running the tests, ensure you have the following installed on your machine:
